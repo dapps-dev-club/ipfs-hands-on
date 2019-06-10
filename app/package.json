@@ -1,0 +1,21 @@
+{
+  "name": "dadc-ipfs-profiles",
+  "version": "0.0.0",
+  "description": "A client dadc-ipfs-profiles",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.6.0",
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.3",
+    "webpack-dev-server": "^3.7.1"
+  },
+  "dependencies": {
+    "ipfs-api": "^26.1.2",
+    "web3": "1.0.0-beta.37",
+    "web3-utils": "1.0.0-beta.37"
+  }
+}
